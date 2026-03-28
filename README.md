@@ -25,3 +25,29 @@ Most deep learning repositories suffer from "dependency spaghetti." This project
   <li>Microsoft Cognitive Toolkit</li>
  </ul>
 
+🛠️ Getting Started
+1. Clone the Repository
+Bash
+git clone https://github.com/your-username/deep-learning-models.git
+cd deep-learning-models
+
+2. Set Up Your Environment
+We recommend using a virtual environment to keep your dependencies clean:
+Bash
+python -m venv venv
+source venv/bin/activate  # Or `venv\Scripts\activate` on Windows
+pip install -r requirements.txt
+
+3. Run a Model
+Navigate to any folder and start training:
+Bash
+cd CNN_Vision
+python train.py --epochs 10
+
+📈 Learning Roadmap
+This repo is designed to be followed in order. Start with the MLP Foundations to understand how gradients flow, then move to CNNs for spatial data, and eventually tackle the complexity of Self-Attention in the Transformers directory.
+
+Tip: Check the common/ folder for shared utilities like custom plotting functions to visualize your loss curves and feature maps in real-time.
+
+🤝 Contributing
+Found a bug or want to add a new model (like Diffusion or GNNs)? Contributions are welcome! Please open an issue or submit a pull request with a clean, documented implementation.
