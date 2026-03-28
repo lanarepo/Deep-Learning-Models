@@ -44,10 +44,10 @@ Bash
 cd CNN_Vision
 python train.py --epochs 10
 
-Learning Roadmap:
+**Learning Roadmap**:
 This repo is designed to be followed in order. Start with the MLP Foundations to understand how gradients flow, then move to CNNs for spatial data, and eventually tackle the complexity of Self-Attention in the Transformers directory.
 
-Tip: Check the common/ folder for shared utilities like custom plotting functions to visualize your loss curves and feature maps in real-time.
+**Tip**: Check the common/ folder for shared utilities like custom plotting functions to visualize your loss curves and feature maps in real-time.
 
-🤝 Contributing
+🤝 **Contributing** :
 Found a bug or want to add a new model (like Diffusion or GNNs)? Contributions are welcome! Please open an issue or submit a pull request with a clean, documented implementation.
