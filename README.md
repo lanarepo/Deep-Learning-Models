@@ -7,9 +7,9 @@ Whether you are a developer looking to understand the math behind the layers or 
   </p>
   <p>
 Most deep learning repositories suffer from "dependency spaghetti." This project takes a different approach:
--**Encapsulation**: Each model lives in its own directory with its own logic.
--**Minimalism**: We strip away the boilerplate to focus on the core architecture and training loops.
--**Reproducibility**: Every folder contains a sample dataset loader and a training script that works out of the box. 
+<li>**Encapsulation**: Each model lives in its own directory with its own logic.</li>
+<li>**Minimalism**: We strip away the boilerplate to focus on the core architecture and training loops.</li>
+<li>**Reproducibility**: Every folder contains a sample dataset loader and a training script that works out of the box.</li>
 </p>
 
 #### Essential Toolkits:
