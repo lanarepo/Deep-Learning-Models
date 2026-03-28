@@ -35,7 +35,7 @@ cd deep-learning-models
 We recommend using a virtual environment to keep your dependencies clean:
 Bash
 python -m venv venv
-source venv/bin/activate  # Or `venv\Scripts\activate` on Windows
+source venv/bin/activate  Or `venv\Scripts\activate` on Windows
 pip install -r requirements.txt
 
 3. Run a Model
@@ -44,7 +44,7 @@ Bash
 cd CNN_Vision
 python train.py --epochs 10
 
-📈 Learning Roadmap
+Learning Roadmap:
 This repo is designed to be followed in order. Start with the MLP Foundations to understand how gradients flow, then move to CNNs for spatial data, and eventually tackle the complexity of Self-Attention in the Transformers directory.
 
 Tip: Check the common/ folder for shared utilities like custom plotting functions to visualize your loss curves and feature maps in real-time.
