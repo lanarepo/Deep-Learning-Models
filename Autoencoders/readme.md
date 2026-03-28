@@ -1,4 +1,4 @@
-**##Autoencoders (Feature Learning)##** <br>
+## **Autoencoders (Feature Learning)** <br>
 Autoencoders are unsupervised neural networks that learn to compress data into a lower-dimensional representation (encoding) and then reconstruct it back to the original format (decoding).
 
 🔵 **The Architecture** <br>
