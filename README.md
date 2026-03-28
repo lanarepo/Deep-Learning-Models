@@ -26,19 +26,19 @@ Most deep learning repositories suffer from "dependency spaghetti." This project
  </ul>
 
 🛠️ Getting Started
-1. Clone the Repository
+1. **Clone the Repository**: 
 Bash
 git clone https://github.com/your-username/deep-learning-models.git
 cd deep-learning-models
 
-2. Set Up Your Environment
+2. **Set Up Your Environment**:
 We recommend using a virtual environment to keep your dependencies clean:
 Bash
 python -m venv venv
 source venv/bin/activate  Or `venv\Scripts\activate` on Windows
 pip install -r requirements.txt
 
-3. Run a Model
+3. **Run a Model**:
 Navigate to any folder and start training:
 Bash
 cd CNN_Vision
